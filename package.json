@@ -1,0 +1,31 @@
+{
+  "name": "whatsapp-ponto-bot",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp para lembretes de ponto",
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "ponto",
+    "lembretes"
+  ],
+  "author": "Jackson Dhanyel Santin",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7",
+    "node-schedule": "^2.1.0",
+    "qrcode": "^1.5.4",
+    "whatsapp-web.js": "^1.22.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
