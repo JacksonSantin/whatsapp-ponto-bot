@@ -90,7 +90,7 @@ async function enviarMensagem() {
 }
 
 setInterval(() => {
-  fetch("https://seuservico.onrender.com/")
+  fetch("https://whatsapp-ponto-bot.onrender.com/")
     .then(() => console.log("Ping enviado para manter ativo"))
     .catch(() => console.log("Erro no ping"));
 }, 600000);
